@@ -1,3 +1,6 @@
+/*
+    нет адаптива, Местами не аккуратная стиль кода, не подключены безопасные шрифты, цвета не вынесены в переменные, применение стилей не по классу, а по Id
+*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
 body {
 max-width: 1600px;
@@ -40,14 +43,14 @@ ol {
 .Rectangle32 {display: inline-block;
     width: 20px;
     height: 20px;
-    
+
     background: #9C69E2;
     border-radius: 20px;}
 .Rectangle33 {display: inline-block;
     width: 20px;
     height: 35px;
     margin-left: 9px;
-    
+
     background: #F063B8;
     border-radius: 20px;}
 .menu-1 {
@@ -74,7 +77,7 @@ ol {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 160%;  
+    line-height: 160%;
     color: #4B5D68;}
 .menu-1 a, .menu-2 a, .menu-3 a {
     color: #4B5D68;
@@ -93,7 +96,7 @@ ol {
     font-weight: bold;
     font-size: 80px;
     line-height: 110%;
-    
+
     align-items: center;
 
     color: #212353;}
@@ -103,10 +106,10 @@ ol {
     height: 468px;
     background: url(image1.png);}
 #main1-text {
-    left:0; 
+    left:0;
     width:60%;
 }
-    
+
 #main1-text p {margin-top: 50px;
     position: relative;
     width: 380px;
@@ -117,7 +120,7 @@ ol {
     line-height: 160%;
     color: #4B5D68;
 }
-    
+
 #main1-btn {
     margin-top: 50px;
     position: relative;
@@ -160,10 +163,10 @@ color: #212353;
 }
 
 #main2-text {
-    display:inline-block; 
-    width:50%; 
-    display: table-cell; 
-    vertical-align: middle; 
+    display:inline-block;
+    width:50%;
+    display: table-cell;
+    vertical-align: middle;
     padding:50px;
 }
 
@@ -214,19 +217,19 @@ color: #4B5D68;
 }
 
 .block1 {
-    background: url(block1.png); 
+    background: url(block1.png);
     background-repeat: no-repeat;
 }
 .block2 {
-    background: url(block2.png); 
+    background: url(block2.png);
     background-repeat: no-repeat;
 }
 .block3 {
-    background: url(block3.png); 
+    background: url(block3.png);
     background-repeat: no-repeat;
 }
 .block4 {
-    background: url(block4.png); 
+    background: url(block4.png);
     background-repeat: no-repeat;
 }
 #block1-pic, #block2-pic, #block3-pic, #block4-pic {
@@ -261,7 +264,7 @@ left: -89px;
 .block-text {
     width: 50%;
     margin-left: 35%;
-    
+
 }
 .block-text p {
     font-style: normal;
@@ -453,25 +456,25 @@ color: #212353;
     width: 50px;
     height: 50px;
     opacity: 0.1;
-    
+
 }
 #soc1 {
     background: #212353 url(f.png);
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 #soc2 {
     background: #212353 url(t.png);
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 #soc3 {
     background: #212353 url(i.png);
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 .soc a {
